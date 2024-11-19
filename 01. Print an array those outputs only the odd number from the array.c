@@ -16,4 +16,5 @@ for(i=0;i<n;i++)
 if(arr[i]%2!=0) 
 printf("%d ",arr[i]);
 } 
-return 0;} 
+return 0;
+} 
