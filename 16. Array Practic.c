@@ -14,7 +14,7 @@ for (j=i+1; j<6; j++)
     	} 
     } 
 } 
-printf("Sorted array: "); 
+    printf("Sorted array: "); 
 for (i =0; i<6; i++) 
    { 
     	printf("%d ",arr[i]); 
