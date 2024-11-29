@@ -2,17 +2,17 @@
 int main()
 {
     int arr[100],i,n,position,value;
-    printf("Enter any array aize: ");
-    scanf("%d", &n);
-    printf("Enter %d Array Element: ", n);
+        printf("Enter any array aize: ");
+        scanf("%d", &n);
+        printf("Enter %d Array Element: ", n);
     for(i=0;i<n;i++)
 {
-    scanf("%d", &arr[i]);
+        scanf("%d", &arr[i]);
 }
-    printf("Enter which position you want to insert: ");
-    scanf("%d", &position);
-    printf("Enter the value you want to insert: ");
-    scanf("%d", &value);
+        printf("Enter which position you want to insert: ");
+        scanf("%d", &position);
+        printf("Enter the value you want to insert: ");
+        scanf("%d", &value);
     for(i=n;i>=position;i--)
     {
             arr[i]>arr[i-1];
