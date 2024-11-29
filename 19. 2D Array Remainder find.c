@@ -2,10 +2,10 @@
 
 int main() {
     int i, j, r, c, divisor;
-    printf("Enter the number of rows: ");
-    scanf("%d", &r);
-    printf("Enter the number of columns: ");
-    scanf("%d", &c);
+        printf("Enter the number of rows: ");
+        scanf("%d", &r);
+        printf("Enter the number of columns: ");
+        scanf("%d", &c);
 
     int arr[r][c];
     int remainder[r][c];
