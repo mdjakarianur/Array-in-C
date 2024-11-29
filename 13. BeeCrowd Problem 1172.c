@@ -6,7 +6,7 @@ int main()
    int i,n[10]; 
    for(i=0; i<10; i++)
    { 
-      scanf("%d",&n[i]); 
+         scanf("%d",&n[i]); 
       if(n[i]<=0) 
          n[i] = 1;
    } 
