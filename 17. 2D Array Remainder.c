@@ -17,7 +17,7 @@ int main() {
     int rows = sizeof(arr) / sizeof(arr[0]);
     int cols = sizeof(arr[0]) / sizeof(arr[0][0]);
     int n = 11;
-    printf("%d\n", findremainder(arr, rows, cols, n));
+        printf("%d\n", findremainder(arr, rows, cols, n));
 
     return 0;
 }
