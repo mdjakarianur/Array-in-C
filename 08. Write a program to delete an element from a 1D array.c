@@ -2,15 +2,15 @@
 int main()
 {
     int arr[100],i,n,position;
-    printf("Enter any array aize: ");
-    scanf("%d", &n);
-    printf("Enter %d Array Element: ", n);
+        printf("Enter any array aize: ");
+        scanf("%d", &n);
+        printf("Enter %d Array Element: ", n);
 for(i=0;i<n;i++)
 {
-    scanf("%d", &arr[i]);
+        scanf("%d", &arr[i]);
 }
-    printf("Enter which position you want to delete: ");
-    scanf("%d", &position);
+        printf("Enter which position you want to delete: ");
+        scanf("%d", &position);
 for(i=position-1;i<=n-2;i++)
 {
     arr[i]=arr[i+1];
